@@ -1,81 +1,105 @@
 {
-  "workbench.colorTheme": "Dracula",
   "editor.fontSize": 14,
-  "editor.lineHeight": 22,
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
-  "explorer.compactFolders": false,
-
-  // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
-  "editor.rulers": [
-    80,
-    120
-  ],
-
-  "[javascript]":{
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint":true, 
-    }
-  },
-
-  "[javascriptreact]":{
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint":true, 
-    }
-  },
-
-  "[typescript]":{
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint":true, 
-    }
-  },
-  "[typescriptreact]":{
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint":true, 
-    }
-  },
-
-  "editor.formatOnSave": false,
-  "eslint.packageManager": "yarn",
+    "editor.lineHeight": 22,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "explorer.compactFolders": false,
+    "typescript.suggest.autoImports": true,
+    "javascript.suggest.autoImports": true,
   
-  "files.associations": {
-    ".sequelizerc": "javascript",
-    "*.edge": "html"
-  },
-  // Aplica um sinal visual na esquerda da linha selecionada
-  "editor.renderLineHighlight": "gutter",
-  // Aumenta a fonte do terminal
-  "terminal.integrated.fontSize": 14,
-  // Define o tema dos ícones na sidebar
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.startupEditor": "newUntitledFile",
-  "editor.tabSize": 2,
-  "window.zoomLevel": 0,
-  "extensions.ignoreRecommendations": true,
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx",
-  },
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-  },  
-  "javascript.updateImportsOnFileMove.enabled": "never",
-  "gitlens.codeLens.recentChange.enabled": false,
-  "gitlens.codeLens.authors.enabled": false,
-  "gitlens.codeLens.enabled": false,
-  "breadcrumbs.enabled": true,
-  "git.enableSmartCommit": true,
-  "editor.parameterHints.enabled": false,
-  "typescript.updateImportsOnFileMove.enabled": "never",
-  "terminal.integrated.shell.osx": "/bin/zsh",
-  "explorer.confirmDragAndDrop": false,
-  "liveshare.featureSet": "insiders",
-  "explorer.confirmDelete": false,
-  "typescript.tsserver.log": "verbose",
-  "javascript.suggest.autoImports": false,
-  "typescript.suggest.autoImports": false,
-  "workbench.activityBar.visible": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  }
+    "editor.rulers": [
+      80,
+      120
+    ],
   
+    "[javascript]":{
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint":true 
+      }
+    },
+  
+    "[javascriptreact]":{
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint":true 
+      }
+    },
+  
+    "[typescript]":{
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint":true 
+      }
+    },
+    "[typescriptreact]":{
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint":true 
+      }
+    },
+    
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": false      
+    },
+    "eslint.packageManager": "yarn",
+    
+    "files.associations": {
+      ".sequelizerc": "javascript",
+      "*.edge": "html"
+    },
+    "editor.renderLineHighlight": "gutter",
+    "terminal.integrated.fontSize": 14,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.tabSize": 2,
+    "extensions.ignoreRecommendations": true,
+    "emmet.syntaxProfiles": {
+      "javascript": "jsx"
+    },
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },  
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.tsdk": "./node_modules/typescript/lib",
+    "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "breadcrumbs.enabled": true,
+    "git.enableSmartCommit": true,
+    "editor.parameterHints.enabled": false,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "explorer.confirmDragAndDrop": false,
+    "liveshare.featureSet": "insiders",
+    "explorer.confirmDelete": false,
+    "typescript.tsserver.log": "verbose",   
+    "workbench.activityBar.visible": true,
+   
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Dracula",
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "material-icon-theme.folders.associations": {
+      "protocols": "Batch",
+      "presentation": "Review",
+      "data":"Container",
+      "main":"Pipe",
+      "infra":"Jinja",
+      "domain":"Jinja"
+    },
+    "go.testOnSave": true,
+    "go.lintOnSave": "package",
+    "go.formatTool": "goimports",
+    "go.testFlags": [
+      "-v"
+    ],
+    "go.autocompleteUnimportedPackages": true,
+    "[go]":{
+      "editor.insertSpaces": false,
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+      }
+    },
+    "kite.showWelcomeNotificationOnStartup": false,
+    "solidity.compileUsingRemoteVersion": "v0.5.0+commit.1d4f565a",
+    "window.zoomLevel": 1
+    
+
 }
