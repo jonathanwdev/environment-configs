@@ -85,7 +85,7 @@
 }```
 
 <h4>GIT</h4>
-```
+
 [user]
 	name = Jonathan Souza
 	email = jonathan.wdev@gmail.com
