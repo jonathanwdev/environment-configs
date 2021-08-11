@@ -1,7 +1,7 @@
-<h1>My V Configs :)</h1><br>
+<h1>My Vscode Configs :)</h1><br>
 
 ```
-<h4>VSCode</h4>
+
 {
   "workbench.colorTheme": "Dracula",
   "editor.fontSize": 14,
